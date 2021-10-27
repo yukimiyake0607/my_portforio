@@ -4,14 +4,251 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuki Miyake | Portforio</title>
+    <title>Yuki Miyake | Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="./css/destyle.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!-- header -->
+    <header class="header">
+        <div class="header-inner">
+            <h1 class="site-title">
+                <a href="./index.html">Yuki Miyake</a>
+            </h1>
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#works">Works</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="burger-btn">
+                <span class="bars">
+                    <span class="bar bar-top"></span>
+                    <span class="bar bar-mid"></span>
+                    <span class="bar bar-bottom"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+    <!-- //header -->
+
+
+    <!-- fv -->
+    <div class="fv">
+        <div class="main-copy">
+            <div class="slider">
+                <div class="slider-item">I am a programmer.</div>
+                <div class="slider-item">I make Website.</div>
+                <div class="slider-item">I make Design.</div>
+            </div>
+        </div>
+    </div>
+    <!-- //fv -->
+
+
+    <!-- main -->
+    <main>
+
+        <!-- About -->
+        <section class="section-wrapper" id="about">
+            <div class="section-inner">
+                <div class="section-title-container">
+                    <div class="title-line"></div>
+                    <h2 class="section-title">About</h2>
+                    <p class="sub-title">My profile</p>
+                </div>
+                <div class="about-content-wrapper flexbox">
+                    <div class="about-img-wrapper">
+                        <img src="./img/my_image01.PNG" alt="三宅柚希の写真です">
+                    </div>
+                    <div class="about-text-wrapper">
+                        <table>
+                            <tr>
+                                <th>名前</th>
+                                <td>三宅柚希（みやけゆうき）</td>
+                            </tr>
+                            <tr>
+                                <th>出身</th>
+                                <td>岐阜県</td>
+                            </tr>
+                            <tr>
+                                <th>制作用PC</th>
+                                <td>MacBook Pro</td>
+                            </tr>
+                            <tr>
+                                <th>一言</th>
+                                <td>はじめまして、現在大学3年生の三宅柚希と申します！<br>
+                                    私たちが日常的に使用しているWEBサイトの仕組みに興味を持ち、
+                                    独学でWEB制作を学び始めました。<br>
+                                    WEBサイトの第一印象でもあるFV（ファーストビュー）や、使い
+                                    やすさ、みやすさを大事にしたWEBサイトづくりを心掛けており
+                                    ます。<br>
+                                    趣味はジム、読書、野球観戦、ショッピング、ギャラリーサイトを
+                                    みることです。
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //About -->
+
+
+        <!-- Skills -->
+        <section class="section-wrapper" id="skills">
+            <div class="section-inner">
+                <div class="section-title-container white-color">
+                    <div class="title-line white-bgc"></div>
+                    <h2 class="section-title">Skills</h2>
+                    <p class="sub-title">What I can do</p>
+                </div>
+                <div class="skills-content-wrapper flexbox">
+                    <div class="skills-content">
+                        <h3 class="skills-title" data-en="Design">WEBデザイン</h3>
+                        <p>Figma、XD、Photoshopを用いてワイヤーフレームを作成します。
+                            それっぽいものを作るのではなく、なぜそこに配置するのかなど
+                            全てを説明できるような設計を意識しています。
+                        </p>
+                    </div>
+                    <div class="skills-content">
+                        <h3 class="skills-title" data-en="Cording">コーディング</h3>
+                        <p>CSS、SASSを用いてコンポーネント化することで何度も同
+                            じ内容を記述することを防ぎ、メンテナンス性や柔軟性を
+                            高めた設計をします。javaScript(jQuery)を用いて簡単な動
+                            きを実装することができます。
+                            CUIツール（コマンドラインツール）はgitを使用しています。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //Skills -->
+
+
+        <!-- Works -->
+        <section class="section-wrapper" id="works">
+            <div class="section-inner">
+                <div class="section-title-container">
+                    <div class="title-line"></div>
+                    <h2 class="section-title">Works</h2>
+                    <p class="sub-title">What I made</p>
+                </div>
+                <ul class="works-list flexbox">
+                    <div class="works-itemWrapper">
+                        <a href="#">
+                            <li class="works-item">
+                                <div class="works-img-wrapper">
+                                    <img src="./img/work-img.jpg" alt="デザインカンプの写真です">
+                                </div>
+                                <p>　ここに作品を載せます。ここに作品を載せます。ここに作品を載せます。ここに作品を載せます。</p>
+                            </li>
+                        </a>
+                    </div>
+                    <div class="works-itemWrapper">
+                        <a href="#">
+                            <li class="works-item">
+                                <div class="works-img-wrapper">
+                                    <img src="./img/work-img.jpg" alt="デザインカンプの写真です">
+                                </div>
+                                <p>　ここに作品を載せます。ここに作品を載せます。ここに作品を載せます。ここに作品を載せます。</p>
+                            </li>
+                        </a>
+                    </div>
+                    <div class="works-itemWrapper">
+                        <a href="#">
+                            <li class="works-item">
+                                <div class="works-img-wrapper">
+                                    <img src="./img/work-img.jpg" alt="デザインカンプの写真です">
+                                </div>
+                                <p>　ここに作品を載せます。ここに作品を載せます。ここに作品を載せます。ここに作品を載せます。</p>
+                            </li>
+                        </a>
+                    </div>
+                    <div class="works-itemWrapper">
+                        <a href="#">
+                            <li class="works-item">
+                                <div class="works-img-wrapper">
+                                    <img src="./img/work-img.jpg" alt="デザインカンプの写真です">
+                                </div>
+                                <p>　ここに作品を載せます。ここに作品を載せます。ここに作品を載せます。ここに作品を載せます。</p>
+                            </li>
+                        </a>
+                    </div>
+                    <div class="works-itemWrapper">
+                        <a href="#">
+                            <li class="works-item">
+                                <div class="works-img-wrapper">
+                                    <img src="./img/work-img.jpg" alt="デザインカンプの写真です">
+                                </div>
+                                <p>　ここに作品を載せます。ここに作品を載せます。ここに作品を載せます。ここに作品を載せます。</p>
+                            </li>
+                        </a>
+                    </div>
+                    <div class="works-itemWrapper">
+                        <a href="#">
+                            <li class="works-item">
+                                <div class="works-img-wrapper">
+                                    <img src="./img/work-img.jpg" alt="デザインカンプの写真です">
+                                </div>
+                                <p>　ここに作品を載せます。ここに作品を載せます。ここに作品を載せます。ここに作品を載せます。</p>
+                            </li>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <!-- //Works -->
+
+
+        <!-- Contact -->
+        <section class="section-wrapper" id="contact">
+            <div class="section-inner">
+                <div class="section-title-container">
+                    <div class="title-line"></div>
+                    <h2 class="section-title">Contact</h2>
+                    <p class="sub-title">Please contact me</p>
+                </div>
+            </div>
+        </section>
+        <!-- //Contact -->
+
+    </main>
+    <!-- //main -->
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-nav">
+            <p class="footer-title">Yuki Miyake</p>
+            <ul class="footer-nav-list">
+                <li class="footer-nav-item"><a href=""></a></li>
+                <li class="footer-nav-item"><a href=""></a></li>
+                <li class="footer-nav-item"><a href=""></a></li>
+                <li class="footer-nav-item"><a href=""></a></li>
+            </ul>
+        </div>
+        <div class="footer-border"></div>
+        <div class="footer-content-first">
+            <div class="footer-content-l">
+                <div class="twitter-logo">
+                    <a rel="noopener" href="https://twitter.com/myuki_design" target="_blank"><img src="./img/Twitter social icons - circle - blue.png" alt="twitterのロゴです"></a>
+                </div>
+            </div>
+            <div class="footer-content-r">
+                <p>↑Top-of-page</p>
+            </div>
+        </div>
+        <div class="footer-content-second">
+            <small>&copy;Yuki Miyake all rights reserved.</small>
+        </div>
+    </footer>
+    <!-- //footer -->
     
 </body>
 </html>
