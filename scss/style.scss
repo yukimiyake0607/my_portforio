@@ -242,11 +242,11 @@ h1{
         .works-itemWrapper{
             width: calc(100% / 3 - 30px);
             margin: calc(30px / 2);
+            &:hover{
+                opacity: .7;
+                transition: .3s;
+            }
             a{
-                &:hover{
-                    opacity: .7;
-                    transition: .3s;
-                }
                 .works-item{
                     border: 1px solid #101010;
                     box-shadow: 0 0 6px #000;

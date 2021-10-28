@@ -286,7 +286,7 @@ h1 {
   margin: calc(30px / 2);
 }
 
-#works .works-list .works-itemWrapper a:hover {
+#works .works-list .works-itemWrapper:hover {
   opacity: .7;
   -webkit-transition: .3s;
   transition: .3s;
