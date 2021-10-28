@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="./css/destyle.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -16,7 +18,7 @@
     <header class="header">
         <div class="header-inner">
             <h1 class="site-title">
-                <a href="./index.html">Yuki Miyake</a>
+                <a href="#top">Yuki Miyake</a>
             </h1>
             <nav class="header-nav">
                 <ul class="nav-list">
@@ -39,7 +41,7 @@
 
 
     <!-- fv -->
-    <div class="fv">
+    <div class="fv" id="top">
         <div class="main-copy">
             <div class="slider">
                 <div class="slider-item">I am a programmer.</div>
@@ -55,7 +57,7 @@
     <main>
 
         <!-- About -->
-        <section class="section-wrapper" id="about">
+        <section class="section-wrapper fade-block" id="about">
             <div class="section-inner">
                 <div class="section-title-container">
                     <div class="title-line"></div>
@@ -85,11 +87,8 @@
                                 <td>はじめまして、現在大学3年生の三宅柚希と申します！<br>
                                     私たちが日常的に使用しているWEBサイトの仕組みに興味を持ち、
                                     独学でWEB制作を学び始めました。<br>
-                                    WEBサイトの第一印象でもあるFV（ファーストビュー）や、使い
-                                    やすさ、みやすさを大事にしたWEBサイトづくりを心掛けており
-                                    ます。<br>
-                                    趣味はジム、読書、野球観戦、ショッピング、ギャラリーサイトを
-                                    みることです。
+                                    WEBサイトの第一印象でもあるFV（ファーストビュー）や、使いやすさ、みやすさを大事にしたWEBサイトづくりを心掛けております。<br>
+                                    趣味はジム、読書、野球観戦、ショッピング、ギャラリーサイトをみることです。
                                 </td>
                             </tr>
                         </table>
@@ -101,7 +100,7 @@
 
 
         <!-- Skills -->
-        <section class="section-wrapper" id="skills">
+        <section class="section-wrapper fade-block" id="skills">
             <div class="section-inner">
                 <div class="section-title-container white-color">
                     <div class="title-line white-bgc"></div>
@@ -132,7 +131,7 @@
 
 
         <!-- Works -->
-        <section class="section-wrapper" id="works">
+        <section class="section-wrapper fade-block" id="works">
             <div class="section-inner">
                 <div class="section-title-container">
                     <div class="title-line"></div>
@@ -207,7 +206,7 @@
 
 
         <!-- Contact -->
-        <section class="section-wrapper" id="contact">
+        <section class="section-wrapper fade-block" id="contact">
             <div class="section-inner">
                 <div class="section-title-container">
                     <div class="title-line"></div>
@@ -224,31 +223,39 @@
 
     <!-- footer -->
     <footer class="footer">
-        <div class="footer-nav">
-            <p class="footer-title">Yuki Miyake</p>
-            <ul class="footer-nav-list">
-                <li class="footer-nav-item"><a href=""></a></li>
-                <li class="footer-nav-item"><a href=""></a></li>
-                <li class="footer-nav-item"><a href=""></a></li>
-                <li class="footer-nav-item"><a href=""></a></li>
-            </ul>
-        </div>
-        <div class="footer-border"></div>
-        <div class="footer-content-first">
-            <div class="footer-content-l">
-                <div class="twitter-logo">
-                    <a rel="noopener" href="https://twitter.com/myuki_design" target="_blank"><img src="./img/Twitter social icons - circle - blue.png" alt="twitterのロゴです"></a>
+        <div class="footer-inner">
+            <div class="footer-nav">
+                <p class="footer-title"><a href="#top">Yuki Miyake</a></p>
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item"><a href="#about">About</a></li>
+                    <li class="footer-nav-item"><a href="#skills">Skills</a></li>
+                    <li class="footer-nav-item"><a href="#works">Works</a></li>
+                    <li class="footer-nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-border"></div>
+            <div class="footer-content-first">
+                <div class="footer-content-l">
+                    <div class="twitter-logo">
+                        <a rel="noopener" href="https://twitter.com/myuki_design" target="_blank"><img src="./img/Twitter social icons - circle - blue.png" alt="twitterのロゴです"></a>
+                    </div>
+                </div>
+                <div class="footer-content-r">
+                    <p><a href="#top">↑Top-of-page</a></p>
                 </div>
             </div>
-            <div class="footer-content-r">
-                <p>↑Top-of-page</p>
+            <div class="footer-content-second">
+                <small>&copy;Yuki Miyake all rights reserved.</small>
             </div>
-        </div>
-        <div class="footer-content-second">
-            <small>&copy;Yuki Miyake all rights reserved.</small>
         </div>
     </footer>
     <!-- //footer -->
     
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>
