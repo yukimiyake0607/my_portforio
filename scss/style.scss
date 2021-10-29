@@ -202,6 +202,9 @@ h1{
             align-items: flex-start;
             .skills-content{
                 max-width: 480px;
+                box-sizing: border-box;
+                padding: 30px;
+                background-color: rgba(16,16,16,.4);
                 .skills-title{
                     font-size: 2.6rem;
                     color: #fff;

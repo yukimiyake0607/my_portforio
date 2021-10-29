@@ -240,6 +240,10 @@ h1 {
 
 #skills .section-inner .skills-content-wrapper .skills-content {
   max-width: 480px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 30px;
+  background-color: rgba(16, 16, 16, 0.4);
 }
 
 #skills .section-inner .skills-content-wrapper .skills-content .skills-title {
