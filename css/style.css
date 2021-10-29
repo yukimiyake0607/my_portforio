@@ -306,6 +306,20 @@ h1 {
 /*-----------------------------*/
 /* contact
 /*-----------------------------*/
+#contact {
+  background-image: url(../img/contact-img.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#contact .section-inner .section-title-container {
+  color: #fff;
+}
+
+#contact .section-inner .google-form {
+  margin: 0 auto;
+}
+
 /*-----------------------------*/
 /* footer
 /*-----------------------------*/

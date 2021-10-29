@@ -265,6 +265,19 @@ h1{
 /*-----------------------------*/
 /* contact
 /*-----------------------------*/
+#contact{
+    background-image: url(../img/contact-img.jpg);
+    background-position: center;
+    background-size: cover;
+    .section-inner{
+        .section-title-container{
+            color: #fff;
+        }
+        .google-form{
+            margin: 0 auto;
+        }
+    }
+}
 
 
 
