@@ -35,6 +35,23 @@
             }
             .about-text-wrapper{
                 margin: 0 auto;
+                table {
+                    tr {
+                        margin-bottom: 30px;
+                        display: block;
+                        &:last-of-type {
+                            margin-bottom: 0;
+                        }
+                        th {
+                            display: block;
+                            width: 100%;
+                        }
+                        td {
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+                }
             }
         }
     }
@@ -65,7 +82,38 @@
     /*-----------------------------*/
     /* works
     /*-----------------------------*/
-
+    #works {
+        .section-inner {
+            .works-list {
+                .works-itemWrapper {
+                    max-width: 300px;
+                    &:first-of-type,
+                    &:nth-of-type(2),
+                    &:nth-of-type(3),
+                    &:nth-of-type(4) {
+                        margin-bottom: 30px;
+                    }
+                    &:nth-of-type(2),
+                    &:nth-of-type(4) {
+                        margin-right: 0;
+                    }
+                    &:nth-of-type(5) {
+                        margin-right: 0;
+                    }
+                    a {
+                        .works-item {
+                            .works-img-wrapper {
+                                img {
+                                    width: 300px;
+                                    height: 250px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 
 
 
@@ -171,7 +219,34 @@
     /*-----------------------------*/
     /* about
     /*-----------------------------*/
-
+    #about{
+        .about-content-wrapper{
+            .about-img-wrapper{
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .about-text-wrapper{
+                margin: 0 auto;
+                table {
+                    tr {
+                        margin-bottom: 30px;
+                        display: block;
+                        &:last-of-type {
+                            margin-bottom: 0;
+                        }
+                        th {
+                            display: block;
+                            width: 100%;
+                        }
+                        td {
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
 
 
 
@@ -179,9 +254,31 @@
     /* works
     /*-----------------------------*/
     #works{
-        .works-list{
-            .works-itemWrapper{
-                width: calc(100% / 2 - 30px);
+        .section-inner {
+            .works-list{
+                .works-itemWrapper{
+                    max-width: 400px;
+                    margin: 0 auto 30px;
+                    &:nth-of-type(2) {
+                        margin: 0 auto 30px;
+                    }
+                    &:nth-of-type(4) {
+                        margin: 0 auto 30px;
+                    }
+                    &:nth-of-type(5) {
+                        margin: 0 auto 30px;
+                    }
+                    a {
+                        .works-item {
+                            .works-img-wrapper {
+                                img {
+                                    width: 400px;
+                                    height: 300px;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -294,16 +391,18 @@
                 max-width: 600px;
                 table{
                     tr{
-                        display: flex;
+                        display: block;
                         margin-bottom: 15px;
                         &:last-of-type{
                             margin-bottom: 0;
                         }
                         th{
-                            width: 20%;
+                            display: block;
+                            width: 100%;
                         }
                         td{
-                            width: 80%;
+                            display: block;
+                            width: 100%;
                         }
                     }
                 }
@@ -350,22 +449,30 @@
     /*-----------------------------*/
     #works{
         background-color: #DBDBDB;
-        .works-list{
-            padding: 0;
-            .works-itemWrapper{
-                width: 100%;
-                margin: calc(30px / 2);
-                a{
-                    &:hover{
-                        opacity: .7;
-                        transition: .3s;
-                    }
-                    .works-item{
-                        border: 1px solid #101010;
-                        box-shadow: 0 0 6px #000;
-                        p{
-                            padding: 20px 25px;
-                            background-color: #fff;
+        .section-inner {
+            .works-list{
+                padding: 0;
+                .works-itemWrapper{
+                    max-width: 300px;
+                    margin: 0 auto;
+                    a{
+                        &:hover{
+                            opacity: .7;
+                            transition: .3s;
+                        }
+                        .works-item{
+                            border: 1px solid #101010;
+                            box-shadow: 0 0 6px #000;
+                            .works-img-wrapper {
+                                img {
+                                    width: 300px;
+                                    height: 250px;
+                                }
+                            }
+                            p{
+                                padding: 20px 25px;
+                                background-color: #fff;
+                            }
                         }
                     }
                 }
